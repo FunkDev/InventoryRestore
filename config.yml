@@ -1,0 +1,17 @@
+########################################################
+#                                                      #
+#              InventoryRestore v0.2 Config            #
+#                      By funkemunky                   #
+#                                                      #
+########################################################
+
+# Do you want a deathmessage sent to staff?
+DeathMessage: true
+
+Messages:
+  Prefix: "&8[&6InventoryRestore&8] &r"
+  NoPermission: "%PREFIX%&4You don't have permission for this!"
+  DeathAlerts: "%PREFIX%&8&oDeath Alerts switched to: &7%SETTING%"
+  Restored:
+    Sender: "%PREFIX%&7&o%PLAYER%'s inventory was restored!"
+    Target: "%PREFIX%&7&oYour inventory was restored by %PLAYER%!"

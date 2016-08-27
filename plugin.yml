@@ -1,0 +1,27 @@
+name: InventoryRestore
+main: com.funkemunky.Inv.Core
+description: Restore someone's inventory, even after the server stops.
+version: 0.2
+author: funkemunky
+commands:
+  invrestore:
+    description: Restore someone's inventory!
+    aliases: [inventoryrestore, ir, restore, irestore]
+  irreload:
+    description: Reload InventoryRestore!
+  deathalerts:
+    description: Toggle alerts.
+    aliases: [alerts, dalerts]
+permissions:
+  ir.restore:
+    description: Restore inventory node.
+    default: op
+  ir.reload:
+    description: Reload plugin node.
+    default: op
+  ir.msg:
+    description: Death message node.
+    default: op
+  ir.alerts:
+    description: Alerts command node.
+    default: op
